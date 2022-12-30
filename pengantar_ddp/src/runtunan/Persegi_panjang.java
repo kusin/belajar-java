@@ -14,10 +14,19 @@ public class Persegi_panjang {
         Scanner obj = new Scanner(System.in);
         
         // deklarasi variabel
-        double panjang, lebar;
+        double panjang, lebar, luas;
         
         // masukan program
         System.out.print("Masukan panjang : ");
         panjang = obj.nextDouble();
+        
+        System.out.print("Masukan lebar : ");
+        lebar = obj.nextDouble();
+        
+        // proses program
+        luas = panjang * lebar;
+        
+        // keluaran program
+        System.out.println("Luas persegi panjang : "+luas);
     }
 }
